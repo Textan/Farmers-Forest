@@ -260,8 +260,8 @@ class CropPredictorApp:
         if not 4 <= pH <= 9:
             messagebox.showerror("Error", "pH Value Must be Between 4 and 9.")
             return False
-        if not 0 <= water <= 200:
-            messagebox.showerror("Error", "Water Availability Must be Between 0 and 200 mm.")
+        if not 0 <= water <= 300:
+            messagebox.showerror("Error", "Water Availability Must be Between 0 and 300 mm.")
             return False
         return True
 
